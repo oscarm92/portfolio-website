@@ -21,7 +21,7 @@ export default function About() {
     <p className="mb-3 ">
         After graduating with a degree in{" "}
         <span className="font-medium">Computer Scinece & Software Enginnering </span>
-        from UWB, I got my first job in tech as a {" "}
+        from the University of Washington, I got my first job in tech as a {" "}
         <span className="font-medium">Operations Engineer</span>{" "}
         at Affirma Consulting. While I was there I used HTML, CSS, JavaScript and 
         C# to build ASP.NET web Apps. I also worked on internal tools written in C#. 
@@ -42,7 +42,7 @@ export default function About() {
         playing video games, watching movies, and spending time with my son. I also enjoy{" "}
         <span className="font-medium">reading, drawing and learning new things</span>. I am currently
         learning {" "}
-        <span className="font-medium">Japansese</span>. 
+        <span className="font-medium">Japanese</span>. 
     </p>
   </motion.section>        
 }
