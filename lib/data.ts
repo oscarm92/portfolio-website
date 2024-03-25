@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import csharpImg from "@/public/csharp-winform-button-click-code.png";
 import capstoneImg from "@/public/Screen Shot 2024-01-02 at 2.27.33 PM.png";
-import websiteImg from "@/public/websitepic.png";
+import websiteImg from "@/public/weatherapp.png";
 //import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -35,7 +35,7 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  {
+  { 
     title: "Graduated UWB",
     location: "Bothell, WA",
     description:
@@ -63,11 +63,12 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "This Website!",
+    title: "Weather App",
     description:
-      "A React portfolio website to showcase my projects, skills and experience.",
+      "Web App built using Next.js, Tailwind CSS and TypeScript. Used OpenWeatherMap APIs to gather weather data and display current and future forcast. ",
     tags: ["React", "Next.js", "TypeScript", "Tailwind"],
     imageUrl: websiteImg,
+    projectURL: "https://oscar-weather-app.vercel.app/",
   },
   {
     title: "Invoice Generator",
@@ -75,6 +76,7 @@ export const projectsData = [
     "Internal tool used by accounting to create invoices. Created a GUI for users and used a SQL Server database to retrieve invoice data using stored procedures.",
     tags: ["Visual Studio", "C#", ".NET Framework", "SQL", "MSSQL"],
     imageUrl: csharpImg,
+    projectURL: "",
   },
   {
     title: "Capstone",
@@ -82,6 +84,7 @@ export const projectsData = [
       "Faculty research project done collaboratively with a graduate student where we developed a web service for cataloging machine learning inference results.",
     tags: ["Python", "Flask", "MySQL", "AWS (S3)"],
     imageUrl: capstoneImg,
+    projectURL: "",
   },
 ] as const;
 
