@@ -84,7 +84,7 @@ export const projectsData = [
       "Faculty research project done collaboratively with a graduate student where we developed a web service for cataloging machine learning inference results.",
     tags: ["Python", "Flask", "MySQL", "AWS (S3)"],
     imageUrl: capstoneImg,
-    projectURL: "",
+    projectURL: "https://uwb-stem.github.io/winter-2021/computer-software-systems/abstracts/oscar-morales.html",
   },
 ] as const;
 
